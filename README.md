@@ -1,5 +1,9 @@
 # A Simple Template, For Simple Projects
 
-# PUG - syntax
-# VUE - code
-# SASS - style
+# Stack
+### PUG - syntax
+### VUE - code
+### SASS - style
+
+# About
+### Uses CDN imports
