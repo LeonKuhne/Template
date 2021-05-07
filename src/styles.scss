@@ -1,0 +1,24 @@
+:root {
+    --primary-font-size: 24px;
+}
+
+#story {
+    margin: 10vw;
+}
+
+#story textarea {
+    font-size: var(--primary-font-size) !important;
+}
+
+#story .action {
+    display: flex;
+    font-size: var(--primary-font-size);
+}
+
+#story .action button {
+    flex: 1;
+}
+
+#story .action button:hover {
+    filter: hue-rotate(90deg)
+}

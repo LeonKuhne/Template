@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', ()=>{
-  let board = new Vue({
+  new Vue({
     el: '#app',
-    vuetify: new Vuetify(),
+    vuetify: new Vuetify({ theme: { dark: true }}),
     data: () => {
       return {
         title: "Lyrics Assistant"
       }
-    }
+    },
   })
 })
